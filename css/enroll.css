@@ -1,0 +1,75 @@
+body{
+    font-family: georgia;
+}
+
+.form-box{
+    margin-top: 4rem !important;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto 4em;
+    border-radius: 10px !important;
+    /* overflow: hidden; */
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
+}
+
+.form-box > h5 {
+    font-size: 1.06rem;
+    font-family: georgia;
+    text-align: center;
+    color: #ea0a2a;
+    margin-top: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .05em;
+}
+
+.form-box .col-12 > p{
+    margin-top: 1.5rem ;
+    line-height: 1.33em;
+    color: black;
+    margin: 10 auto;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    /* text-align: initial; */
+}
+
+.submit-btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1.15rem;
+    font-family: georgia;
+    font-weight: 700;
+    background: #ea0a2a;
+    color: #fff;
+    border: none;
+}
+
+.submit-btn:hover{
+    text-decoration: underline;
+    background-color: #cc0724;
+}
+
+/***** editing bootstrap *****/
+
+.form-label{
+    margin-top: 1rem;
+    margin-bottom: -0.05rem;
+}
+.form-control{
+    border-radius: 0;
+    padding: 0.775rem 0.75rem;
+    font-size: 1.2rem;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 2px solid black;
+    outline: 0;
+    box-shadow: none;
+  }
+
+/***** End editing bootstrap *****/

@@ -1,0 +1,42 @@
+/***** Editing style.css *****/
+.word-content{
+    height: 370px;
+    margin-top: 0;
+    background: url(../images/pexels-photo-416320.webp);
+    background-position: 40% ; 
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.word-content >.overlay{
+    background-image: linear-gradient(80deg, rgba(5, 5, 5, 0.9), transparent , transparent);
+    overflow: hidden;
+    width: 100% ;
+    height: 100%;
+}
+
+.section-herowords >.col-12{
+    text-align: center;
+}
+
+.section-herowords >.col-12 >h1{
+    font-family: sans-serif;
+    padding-top: 1.3rem;
+    font-size: 4.3rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 4.5px 4.5px rgb(0, 0, 0);
+}
+
+.form-box{
+    margin-top: -2rem;
+}
+
+/***** End Editing style.css *****/
+
+
+/***** Editing bootsrap.css *****/
+
+
+/***** End Editing bootsrap.css *****/
